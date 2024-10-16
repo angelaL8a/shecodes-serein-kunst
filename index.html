@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Biggest Achievement Challenge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+      * {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+
+    <div class="min-h-screen w-full flex flex-col">
+      <!-- Header -->
+      <header
+        class="rounded-full backdrop-blur-sm bg-white/50 sticky top-4 w-[1400px] mx-auto flex items-center px-12 h-[100px] border border-[#FAEEF4] gap-8 z-[9999]"
+        style="box-shadow: 25px 32px 50px -6px rgba(241, 205, 222, 0.46)"
+      >
+        <button onclick="scrollToTop()" class="size-20">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/570/original/iconSerein.png?1729020194"
+            alt="Logo"
+          />
+        </button>
+
+        <div class="flex items-center justify-evenly w-full">
+          <button onclick='scrollToTop("home")' class="hover:underline text-xl">
+            Home
+          </button>
+          <button
+            onclick='scrollToTop("features")'
+            class="hover:underline text-xl"
+          >
+            Features
+          </button>
+          <button
+            onclick='scrollToTop("challenges")'
+            class="hover:underline text-xl"
+          >
+            Challenges
+          </button>
+          <button
+            onclick='scrollToTop("inspiration")'
+            class="hover:underline text-xl"
+          >
+            Inspiration
+          </button>
+        </div>
+      </header>
+
+      <!-- Home -->
+      <div id="home" class="max-w-[1400px] mx-auto mb-28">
+        <div
+          class="overflow-hidden w-full flex rounded-tl-[101px] rounded-bl-[101px]"
+        >
+          <div
+            class="w-[20%]"
+            style="
+              background: linear-gradient(
+                181deg,
+                #f2d3e1 1.69%,
+                #f1cede 50.29%,
+                #efc9db 97.92%
+              );
+            "
+          ></div>
+
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/571/original/Home_IMG.png?1729021592"
+            alt="Hero"
+            class="w-[80%]"
+          />
+        </div>
+      </div>
+
+      <!-- Features I -->
+      <div id="features" class="w-[1400px] h-[1508px] relative mx-auto">
+        <img
+          class="h-[800px] left-0 top-[708px] absolute object-cover"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/586/original/Feature_II_%281%29.png?1729031374"
+        />
+        <img
+          class="h-[587px] right-0 top-[271px] absolute rounded-[320.50px] object-cover"
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/588/original/Feature_I_%282%29.png?1729031840"
+        />
+
+        <div
+          class="right-0 top-[812px] absolute rounded-[101px] bg-white flex flex-col justify-center items-center gap-5 w-[750px] h-[450px] px-20"
+          style="
+            box-shadow: 40px 40px 50px 0px rgba(252, 189, 212, 0.46),
+              20px 20px 40px 0px rgba(252, 148, 184, 0.3) inset,
+              -40px -40px 80px 0px rgba(252, 148, 184, 0.61) inset;
+          "
+        >
+          <h3 class="text-[#131313] text-center text-[30px] uppercase">
+            First Feature
+          </h3>
+
+          <p
+            class="text-[#131313] text-center text-[48px] font-light leading-[74.88px]"
+          >
+            In publishing and graphic design
+          </p>
+        </div>
+
+        <div
+          class="w-[750px] h-[450px] left-0 top-[53px] absolute rounded-[101px] bg-white flex flex-col justify-center items-center gap-5 px-20"
+          style="
+            box-shadow: 40px 40px 50px 0px rgba(252, 189, 212, 0.46),
+              20px 20px 40px 0px rgba(252, 148, 184, 0.3) inset,
+              -40px -40px 80px 0px rgba(252, 148, 184, 0.61) inset;
+          "
+        >
+          <h3 class="text-[#131313] text-center text-[30px] uppercase">
+            First Feature
+          </h3>
+
+          <p
+            class="text-[#131313] text-center text-[48px] font-light leading-[74.88px]"
+          >
+            In publishing and graphic design
+          </p>
+        </div>
+      </div>
+
+      <!-- Features II -->
+      <div class="w-full bg-[#FFE4F0] py-40">
+        <div class="w-[1400px] mx-auto flex items-start justify-center gap-20">
+          <div class="flex flex-col items-center justify-center gap-10">
+            <h3
+              class="text-center -ml-36 text-[55px] font-semibold leading-[84.795px] uppercase -rotate-6"
+            >
+              Features
+            </h3>
+
+            <div class="flex flex-col gap-[65px] w-[600px] -rotate-6">
+              <div
+                class="h-[550px] flex items-center justify-center"
+                style="
+                  background: linear-gradient(
+                    111deg,
+                    rgba(255, 255, 255, 0.4) -8.95%,
+                    rgba(255, 255, 255, 0.01) 114%
+                  );
+                  border-radius: 110px 110px 0px 0px;
+                  box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.03);
+                  backdrop-filter: blur(50px);
+                "
+              >
+                <p class="text-[48px] text-center font-light">
+                  In publishing and graphic design
+                </p>
+              </div>
+
+              <div
+                class="h-[550px] flex items-center justify-center"
+                style="
+                  border-radius: 0px 0px 110px 110px;
+                  background: linear-gradient(
+                    111deg,
+                    rgba(255, 255, 255, 0.4) -8.95%,
+                    rgba(255, 255, 255, 0.01) 114%
+                  );
+                  box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.03);
+                  backdrop-filter: blur(50px);
+                "
+              >
+                <p class="text-[48px] text-center font-light">
+                  In publishing and graphic design
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="overflow-hidden w-[600px] -rotate-6 pt-20">
+            <img
+              src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/592/original/phone_1.png?1729034841"
+              class="w-full h-full"
+            />
+          </div>
+        </div>
+      </div>
+
+      <!-- Challenges -->
+      <div
+        class="w-full py-40"
+        id="challenges"
+        style="
+          background: linear-gradient(
+            181deg,
+            rgba(255, 255, 255, 0.53) 3.62%,
+            rgba(240, 202, 220, 0.53) 73.04%
+          );
+        "
+      >
+        <div class="w-[1400px] relative mx-auto">
+          <h3 class="uppercase text-center text-[55px] font-semibold">
+            Challenges
+          </h3>
+
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/594/original/CoverChallenges.png?1729035238"
+            class="w-full h-full mt-20"
+          />
+
+          <div class="mt-20 grid grid-cols-6 grid-rows-2 gap-12">
+            <div
+              class="col-span-2 row-span-2 rounded-[101px] p-20"
+              style="
+                background: linear-gradient(
+                  111deg,
+                  rgba(255, 255, 255, 0.4) -8.95%,
+                  rgba(255, 255, 255, 0.01) 114%
+                );
+                box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.03);
+                backdrop-filter: blur(50px);
+              "
+            >
+              <h4 class="text-center mb-10 text-2xl font-light italic">
+                challenge
+              </h4>
+
+              <p class="text-[40px] text-center font-light">
+                In publishing and graphic design In publishing and graphic
+                design In publishing and graphic design
+              </p>
+            </div>
+
+            <div
+              class="col-span-4 row-span-1 rounded-[101px] p-20"
+              style="
+                background: linear-gradient(
+                  111deg,
+                  rgba(255, 255, 255, 0.4) -8.95%,
+                  rgba(255, 255, 255, 0.01) 114%
+                );
+                box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.03);
+                backdrop-filter: blur(50px);
+              "
+            >
+              <h4 class="text-center mb-10 text-2xl font-light italic">
+                challenge
+              </h4>
+
+              <p class="text-[40px] text-center font-light">
+                In publishing and graphic design In publishing and graphic
+                design In publishing and graphic design
+              </p>
+            </div>
+
+            <div
+              class="col-span-2 row-span-1 rounded-[101px] p-20"
+              style="
+                background: linear-gradient(
+                  111deg,
+                  rgba(255, 255, 255, 0.4) -8.95%,
+                  rgba(255, 255, 255, 0.01) 114%
+                );
+                box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.03);
+                backdrop-filter: blur(50px);
+              "
+            >
+              <h4 class="text-center mb-10 text-2xl font-light italic">
+                challenge
+              </h4>
+
+              <p class="text-[40px] text-center font-light">
+                In publishing and graphic design
+              </p>
+            </div>
+
+            <div
+              class="col-span-2 row-span-1 rounded-[101px] p-20"
+              style="
+                background: linear-gradient(
+                  111deg,
+                  rgba(255, 255, 255, 0.4) -8.95%,
+                  rgba(255, 255, 255, 0.01) 114%
+                );
+                box-shadow: 0px 4px 4px 5px rgba(0, 0, 0, 0.03);
+                backdrop-filter: blur(50px);
+              "
+            >
+              <h4 class="text-center mb-10 text-2xl font-light italic">
+                challenge
+              </h4>
+
+              <p class="text-[40px] text-center font-light">
+                In publishing and graphic design
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Inspiration -->
+      <div id="inspiration" class="w-full py-40">
+        <div class="w-[1400px] relative mx-auto">
+          <h3 class="uppercase text-center text-[55px] font-semibold">
+            Inspiration
+          </h3>
+
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/596/original/FaceFirst_-_copia.png?1729037136"
+            class="w-full h-full mt-20"
+          />
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div id="home" class="max-w-[1400px] mx-auto mb-28">
+        <div
+          class="overflow-hidden relative w-full flex rounded-tr-[101px] rounded-br-[101px]"
+        >
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/147/599/original/Photo_%282%29.png?1729037872"
+            alt="Hero"
+            class="w-[80%]"
+          />
+
+          <div
+            class="w-[20%]"
+            style="
+              background: linear-gradient(
+                181deg,
+                #f2d3e1 1.69%,
+                #f1cede 50.29%,
+                #f0cadc 97.92%
+              );
+            "
+          ></div>
+
+          <button onclick="scrollToTop()">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="1"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="absolute bottom-10 right-10 z-50 size-16"
+            >
+              <path d="m18 15-6-6-6 6" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function scrollToTop(name) {
+        let top = 0;
+
+        if (name) {
+          const cSection = document.getElementById(name);
+          if (cSection)
+            top = window.pageYOffset + cSection.getBoundingClientRect().top;
+        }
+
+        window.scrollTo({
+          top,
+          behavior: "smooth",
+        });
+      }
+    </script>
+  </body>
+</html>
